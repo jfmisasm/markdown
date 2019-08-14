@@ -2,7 +2,7 @@
 
 También llamado patrón de arquitectura por  capas, es una de las técnicas más comúnes que los arquitectos de software utilizan para dividir sistemas de software complicados. Al pensar en un sistema en términos de capas, se imaginan los principales subsistemas de software ubicados de la misma forma que las capas de un pastel, donde cada capa descansa sobre la inferior. En este esquema la capa más alta utiliza varios servicios definidos por la inferior, pero la ultima es inconsciente de la superior. Además, normalmente cada capa oculta las capas inferiores de las siguientes superiores a esta.
 
-[LayeredArquitecture](https://www.google.com/search?q=layered+pattern&client=opera&hs=G5K&source=lnms&tbm=isch&sa=X&ved=0ahUKEwinkuXu84LkAhUl11kKHTisDU8Q_AUIESgB&biw=1473&bih=706#imgrc=aoEsrrw4jgZ1EM:)
+[LayeredArquitecture](software.jpg)
 
 ## Capas Principales
 
