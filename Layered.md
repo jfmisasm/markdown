@@ -7,7 +7,7 @@ También llamado patrón de arquitectura por  capas, es una de las técnicas má
 ## Capas Principales
 
 ### 1. Capa de Presentación 
-		Referente a la interacción entre el usuario y el software.  Puede ser tan simple como un menú basado en líneas de comando o tan complejo como una aplicación basada en formas.  Su principal responsabilidad es mostrar información al usuario, interpretar los comandos de este y realizar algunas validaciones simples de los datos ingresados.
+Referente a la interacción entre el usuario y el software.  Puede ser tan simple como un menú basado en líneas de comando o tan complejo como una aplicación basada en formas.  Su principal responsabilidad es mostrar información al usuario, interpretar los comandos de este y realizar algunas validaciones simples de los datos ingresados.
 
 ### 2. Capa de Reglas de Negocio (Empresarial): 
 		También denominada Lógica de Dominio, esta capa contiene la funcionalidad que implementa la aplicación.  Involucra cálculos basados en la información dada por el usuario y datos almacenados y validaciones.  Controla la ejecución de la capa de acceso a datos y servicios externos.  Se puede diseñar la lógica de la capa de negocios para uso directo por parte de componentes de presentación o su encapsulamiento como servicio y llamada a través de una interfaz de servicios que coordina la conversación con los clientes del servicio o invoca cualquier flujo o componente de negocio.
